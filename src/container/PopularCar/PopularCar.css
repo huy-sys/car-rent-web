@@ -1,0 +1,45 @@
+.app__popular {
+  width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+.app__popular-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.app__popular-heading span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #90a3bf;
+}
+
+.app__popular-heading button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.app__popular-heading button a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3563E9;
+  font-family: var(--font-base);
+}
+
+.app__popular-heading button a:hover {
+    color: #6988e6;
+}
+
+.app__popular-listItem {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+

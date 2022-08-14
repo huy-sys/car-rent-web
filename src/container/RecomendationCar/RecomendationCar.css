@@ -1,0 +1,55 @@
+.app__recomendation {
+  width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 64px;
+}
+
+.app__recomendation-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.app__recomendation-heading span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #90a3bf;
+}
+
+.app__recomendation-heading .numberCars {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #90a3bf;
+}
+
+.app__recomendation-listItem {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.app__recomendation-footer {
+  width: 100%;
+  text-align: center;
+}
+
+.app__recomendation-footer button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: var(--font-base);
+  background: #3563e9;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.app__recomendation-footer button:hover {
+  background-color: #6988e6;
+}

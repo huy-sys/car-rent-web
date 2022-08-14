@@ -1,0 +1,91 @@
+.product-card {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-like {
+  border: none;
+  background: none;
+}
+
+.product-card-type {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #90a3bf;
+  margin-bottom: 64px;
+}
+
+.product-card .product-img {
+  position: relative;
+  margin-bottom: 37px;
+}
+.coating {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  height: 68px;
+  top: 25px;
+  width: 100%;
+}
+
+.specifications {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.specifications-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #90a3bf;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.price-btn-rent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-btn-rent .price-per-day .price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1a202c;
+}
+
+.price-btn-rent .price-per-day .timeType {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #90a3bf;
+}
+.btn-rent {
+  padding: 10px 20px;
+  background: #3563e9;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  font-family: var(--font-base);
+}
+
+.btn-rent:hover {
+  background: #6988e6;
+}

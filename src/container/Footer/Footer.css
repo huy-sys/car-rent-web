@@ -1,0 +1,65 @@
+.app__footer {
+  width: 1440px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.app__footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.app__footer-top-logo-slogan {
+  width: 305px;
+}
+.slogan {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  letter-spacing: -0.01em;
+  color: rgba(19, 19, 19, 0.6);
+  margin-top: 16px;
+}
+
+.app__footer-top-link {
+  display: flex;
+  gap: 60px;
+}
+
+.app__footer-top-link-about-heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #131313;
+}
+
+.app__footer-top-link-about-item {
+  width: 152px;
+  display: flex;
+  margin-top: 24px;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: rgba(19, 19, 19, 0.6);
+  gap: 16px;
+}
+
+.app__footer-top-link-about-item a:hover {
+  font-weight: 600;
+  color: #3563e9;
+}
+
+.app__footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.certification {
+  display: flex;
+  gap: 60px;
+}
