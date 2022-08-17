@@ -28,6 +28,7 @@
 .product-card .product-img {
   position: relative;
   margin-bottom: 37px;
+  text-align: center;
 }
 .coating {
   position: absolute;

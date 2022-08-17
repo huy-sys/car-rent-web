@@ -1,6 +1,5 @@
 .app__popular {
-  width: 1440px;
-  margin: 0 auto;
+  
   padding-bottom: 32px;
 }
 
@@ -37,9 +36,6 @@
 }
 
 .app__popular-listItem {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 32px;
+  margin: 0;
 }
 
