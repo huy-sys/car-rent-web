@@ -14,6 +14,14 @@ const RecomendationCar = () => {
         <ProductCard />
         <ProductCard />
         <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
       </div>
       <div className="app__recomendation-footer">
         <button>Show more car</button>

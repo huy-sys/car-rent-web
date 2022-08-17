@@ -46,7 +46,7 @@ const Header = () => (
     <div className="app__header-filter">
       <div className="app__header-filter-first">
         <div className="btn-radio">
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked/>
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autoComplete="off" checked/>
           <span>Pick-Up</span>
         </div>
         <FilterCard />
@@ -54,7 +54,7 @@ const Header = () => (
       <button><img src={icons.swap} alt="swap" /></button>
       <div className="app__header-filter-first">
         <div className="btn-radio">
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" />
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autoComplete="off" />
           <span>Drop-Off</span>
         </div>
         <FilterCard />

@@ -1,14 +1,14 @@
 import React from "react";
 import { Navbar } from "./components";
 import "./App.css";
-import { Footer, Header, PopularCar, RecomendationCar } from "./container";
+import { Footer, Header, PopularCars, RecomendationCar } from "./container";
 
 const App = () => (
   <div className="App">
     <Navbar />
     <div className="app__content">
       <Header />
-      <PopularCar />
+      <PopularCars />
       <RecomendationCar />
     </div>
     <Footer />

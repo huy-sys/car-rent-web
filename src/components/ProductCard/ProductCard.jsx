@@ -5,7 +5,7 @@ import { icons } from "../../constants";
 
 const ProductCard = () => {
   return (
-    <div className="product-card">
+    <div className="product-card col-lg-3">
       <div className="product-card-heading">
         <span>Koenigsegg</span>
         <button className="btn-like">
