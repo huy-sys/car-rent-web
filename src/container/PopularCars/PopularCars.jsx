@@ -14,7 +14,9 @@ const PopularCars = () => {
       </div>
       <div className="row ">
         {data.popularCars.map((popular) => (
-          <ProductCard popular={popular} />
+          <div className="col-lg-3">
+            <ProductCard popular={popular} />
+          </div>
         ))}
       </div>
     </div>
