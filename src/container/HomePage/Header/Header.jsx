@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./Header.css";
-import { images } from "../../constants";
-import { icons } from "../../constants";
-import { FilterCard } from "../../components";
+import { images } from "../../../constants";
+import { icons } from "../../../constants";
+import { FilterCard } from "../../../components";
 
 const Header = () => (
   <div className="app__header">

@@ -1,6 +1,6 @@
 import React from "react";
-import { ProductCard } from "../../components";
-import { data } from "../../constants";
+import { ProductCard } from "../../../components";
+import { data } from "../../../constants";
 import "./PopularCars.css";
 
 const PopularCars = () => {
@@ -9,13 +9,13 @@ const PopularCars = () => {
       <div className="app__popular-heading">
         <span>Popular Car</span>
         <button>
-          <a href="/">View all</a>
+          <a href="/PopularCarPage">View all</a>
         </button>
       </div>
       <div className="row ">
-        {data.popularCars.map((popular) => (
+        {data.popularCars.map(popularCar => (
           <div className="col-lg-3">
-            <ProductCard popular={popular} />
+            <ProductCard popularCar={popularCar} />
           </div>
         ))}
       </div>

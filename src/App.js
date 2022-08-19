@@ -1,17 +1,21 @@
 import React from "react";
-import { Navbar } from "./components";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "./App.css";
-import { Footer, Header, PopularCars, RecomendationCar } from "./container";
+import { Footer, Navbar } from "./components";
+import { Header, PopularCars, RecomendationCar } from "./container";
+import { Home } from "./pages";
 
 const App = () => (
   <div className="App">
-    <Navbar />
-    <div className="app__content">
-      <Header />
-      <PopularCars />
-      <RecomendationCar />
-    </div>
-    <Footer />
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={(<Home />)} />
+      </Routes>
+      <div className="footer">
+        <Footer />
+      </div>
+    </BrowserRouter>
   </div>
 );
 

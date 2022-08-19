@@ -1,11 +1,6 @@
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
-import PopularCars from './PopularCars/PopularCars';
-import RecomendationCar from './RecomendationCar/RecomendationCar';
+import Header from "./HomePage/Header/Header";
+import PopularCars from "./HomePage/PopularCars/PopularCars";
+import RecomendationCar from "./HomePage/RecomendationCar/RecomendationCar";
+import Footer from "./Footer/Footer";
 
-export {
-    Header,
-    Footer,
-    PopularCars,
-    RecomendationCar
-  };
+export { Header, PopularCars, RecomendationCar, Footer };

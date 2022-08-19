@@ -1,9 +1,6 @@
-import Navbar from './Navbar/Navbar';
-import FilterCard from './FilterCard/FilterCard';
-import ProductCard from './ProductCard/ProductCard';
+import Navbar from "./Navbar/Navbar";
+import FilterCard from "./FilterCard/FilterCard";
+import ProductCard from "./ProductCard/ProductCard";
+import Footer from "./Footer/Footer";
 
-export {
-  Navbar,
-  FilterCard,
-  ProductCard,
-};
+export { Navbar, FilterCard, Footer, ProductCard };

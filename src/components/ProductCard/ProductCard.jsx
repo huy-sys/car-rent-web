@@ -3,7 +3,7 @@ import "./ProductCard.css";
 import { images } from "../../constants";
 import { icons } from "../../constants";
 
-const ProductCard = () => {
+const ProductCard = (popularCar) => {
   return (
     <div className="product-card">
       <div className="product-card-heading">
