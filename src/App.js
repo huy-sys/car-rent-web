@@ -2,8 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "./App.css";
 import { Footer, Navbar } from "./components";
-import { Header, PopularCars, RecomendationCar } from "./container";
-import { Home } from "./pages";
+import { Home, PopularCarPage } from "./pages";
 
 const App = () => (
   <div className="App">
@@ -11,6 +10,7 @@ const App = () => (
       <Navbar />
       <Routes>
         <Route path="/" element={(<Home />)} />
+        <Route path="/popularCar" element={(<PopularCarPage />)} />
       </Routes>
       <div className="footer">
         <Footer />

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const PopularCarPage = () => {
-  return (
-    <div id='PopularCarPage'>PopularCarPage</div>
-  )
-}
+  return <div >PopularCarPage</div>;
+};
 
-export default PopularCarPage
+export default PopularCarPage;

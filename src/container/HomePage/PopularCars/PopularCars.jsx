@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ProductCard } from "../../../components";
 import { data } from "../../../constants";
 import "./PopularCars.css";
@@ -9,7 +10,7 @@ const PopularCars = () => {
       <div className="app__popular-heading">
         <span>Popular Car</span>
         <button>
-          <a href="/PopularCarPage">View all</a>
+          <Link to="/popularCar"> View all </Link>
         </button>
       </div>
       <div className="row ">

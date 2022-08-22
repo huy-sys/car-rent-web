@@ -3,6 +3,7 @@ import React from "react";
 import "./Navbar.css";
 import { images } from "../../constants";
 import { icons } from "../../constants";
+import { Link } from "react-router-dom";
 
 const Navbar = () => (
   <div className="app__navbar">
@@ -12,6 +13,7 @@ const Navbar = () => (
           <img src={images.logo} alt="app logo" />
         </a>
       </div>
+      
       <div className="app__navbar-search">
         <button className="app__navbar-left-icon">
           <img src={icons.searchNormal} alt="searchBtn" />
