@@ -1,0 +1,31 @@
+.app__sidebar {
+  padding-top: 32px;
+  padding-left: 32px;
+  background-color: #fff;
+}
+
+.category-heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #94a7cb;
+}
+
+.category-list {
+    margin-top: 28px;
+    padding-bottom: 56px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.category-price {
+    padding-bottom: 56px;
+}
+.price-range-input {
+    margin: 28px 32px 12px 0;
+}
